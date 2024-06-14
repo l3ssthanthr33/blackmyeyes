@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My GeoCities Style Website</title>
+    <style>
+        body {
+            background-color: #FFD700; /* Bright yellow background */
+            color: #0000FF; /* Bright blue text */
+            font-family: "Comic Sans MS", cursive, sans-serif;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            border: 2px solid #FF0000; /* Bright red border */
+            padding: 20px;
+            background-color: #FFFFFF; /* White background */
+        }
+        h1 {
+            text-align: center;
+            color: #FF00FF; /* Magenta color */
+        }
+        .marquee {
+            font-size: 24px;
+            color: #00FF00; /* Bright green text */
+        }
+        .blink {
+            animation: blink 1s step-end infinite;
+        }
+        @keyframes blink {
+            from, to {
+                visibility: hidden;
+            }
+            50% {
+                visibility: visible;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Welcome to My 2000s GeoCities Website!</h1>
+    <marquee class="marquee">This is a scrolling marquee text!</marquee>
+    <p class="blink">Blinking Text!</p>
+    <table border="1" width="100%">
+        <tr>
+            <td width="20%">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Gallery</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </td>
+            <td width="80%">
+                <h2>About This Website</h2>
+                <p>This website is designed to look like a classic GeoCities site from the 2000s!</p>
+                <img src="https://www.example.com/under_construction.gif" alt="Under Construction">
+            </td>
+        </tr>
+    </table>
+    <hr>
+    <p>Visitors: <img src="https://www.example.com/hit_counter.gif" alt="Hit Counter"></p>
+    <p>Sign the <a href="#">Guestbook</a></p>
+</div>
+
+</body>
+</html>
